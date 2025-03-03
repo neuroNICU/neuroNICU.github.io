@@ -9,6 +9,14 @@
 		margin-bottom: 50px;
 	}
 }
+.title {
+    text-align: center;
+    margin: 0;
+    padding: 70px 0;
+    font-size: 4em;
+    color: #13246b;
+   font-weight: bold;
+}
 
 .testimonial {
 	background: #f5f5f5;
@@ -41,6 +49,20 @@
 		color: #fff;
 	}
 }
+
+.grid-photos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
+  gap: 20px; /* Adds spacing between images */
+  justify-items: center; /* Centers items in grid cells */
+}
+
+.grid-item {
+  width: 100%;
+  max-width: 300px; /* Adjust based on your preference */
+  border-radius: 10px;
+}
+
 
 
 @media #{$desktop} {

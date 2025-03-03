@@ -13,63 +13,86 @@ description: Landing page
 	</div>
 </section>
 
-<div class="content">
-	<section>
-		<div class="container flex">
-			<div class="text editable">
-				<h2>Project Overview</h2>
-				<p>NeuroNICU is a specialized software designed to study auditory processes in patient populations
-                that may not be able to actively participate in traditional cognitive tasks—such as newborns, young children, and individuals with mobility or sensory
-                disabilities. This software is divided into two primary components:</p>
+<<div class="content">
+    <section>
+        <div class="container">
+            <div class="text editable text-center">
+                <h1 class="title">Project Overview</h1>
+                <p>NeuroNICU is a specialized software designed to study auditory processes & cognitive development in patient populations
+                    that may not be able to actively participate in traditional cognitive tasks—such as newborns, young
+                    children, and individuals with mobility or sensory disabilities. This software is divided into two
+                    primary components:</p>
+                <h2>1. Auditory Stimuli Tool</h2>
+                <p>The first phase of the project involves designing and implementing an auditory oddball task. This task is widely used in
+                    neuroscience to study brain responses to unfamiliar auditory stimuli. It consists of presenting a sequence of frequent
+                    (standard) sounds mixed with infrequent (deviant) sounds. The occurrence of these deviant sounds prompts a specific
+                    brain response known as the Mismatch Negativity (MMN), an Event-Related Potential (ERP) that provides insights into
+                    automatic auditory discrimination and cognitive processing speed.</p>
+                <h2>2. EEG Data Analysis</h2>
+                <p>The second phase of the project focuses on developing an analysis pipeline to preprocess and analyze Electroencephalography
+                    (EEG) data collected from the oddball task. The pipeline will include:</p>
                 <ul>
-                    <li><strong>Auditory Stimulation:</strong> Implementing the Oddball Task</li>
-                    <li><strong>EEG Data Analysis:</strong> Processing and Analyzing EEG Data</li>
+                    <li><strong>Preprocessing Steps:</strong> Artifact removal, filtering, and segmentation of EEG signals.</li>
+                    <li><strong>MMN Extraction:</strong> Identifying and isolating the MMN ERP waveform from the EEG data.</li>
+                    <li><strong>Data Visualization & Interpretation:</strong> Generating visual and statistical analyses to assess the
+                        efficiency of auditory discrimination in participants.</li>
                 </ul>
-			</div>
-			<div class="image">
-				<img src="{{ site.baseurl }}/images/dashboard.png" alt="Dashboard view" class="screenshot editable" />
-			</div>
-		</div>
-	</section>
+                <h1 class="title">Objective</h1>
+                <p>By integrating these components, NeuroNICU aims to provide a user-friendly platform for auditory research, enabling
+                    more accessible and reliable studies in neonatal and clinical settings. This project provides a robust framework for
+                    studying auditory processing across diverse populations, offering valuable insights into cognitive and sensory neuroscience.</p>
+            </div>
+            <div class="container grid-photos">
+                <img src="{{ site.baseurl }}/images/dashboard.png" alt="Dashboard view" class="screenshot editable" />
+                <img src="{{ site.baseurl }}/images/exam_parameters.png" alt="Dashboard view" class="screenshot editable" />
+                <img src="{{ site.baseurl }}/images/mid_exam.png" alt="Dashboard view" class="screenshot editable" />
+                <img src="{{ site.baseurl }}/images/go_data_analysis.png" alt="Dashboard view" class="screenshot editable" />
 
-	<section>
-		<div class="container flex">
-			<div class="text editable">
-				<h2>How can I <strong>keep track</strong> of my sales team?</h2>
-				<p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show you where you should be spending your resources.</p>
-			</div>
-			<div class="image">
-				<img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
-			</div>
-		</div>
-	</section>
+            </div>
+        </div>
+    </section>
 
-	<section>
-		<div class="container flex">
-			<div class="text editable">
-				<h2>How can I <strong>forecast</strong> the next 90 days?</h2>
-				<p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show you where you should be spending your resources.</p>
-			</div>
-			<div class="image">
-				<img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
-			</div>
-		</div>
-	</section>
+    <section>
+        <div class="container">
+            <div class="text editable text-center">
+                <h1 class="title">Auditory Stimulation Tool </h1>
+                <h2>Part 1: Implementing the Oddball Task</h2>
+                <p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and shows you where you should be spending your resources.</p>
+            </div>
+            <div class="image text-center">
+                <img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
+            </div>
+        </div>
+    </section>
 
-	<section class="testimonial">
-		<div class="container flex">
-			<div class="testimonial-block">
-				<div class="square-image"><img src="https://source.unsplash.com/6anudmpILw4/600x400" alt="Jim James" class="editable"></div>
-				<blockquote>
-					<p class="editable">Hydra has shaped the business we have today. We have a repeatable sales process and a strategy to scale our team. I recommend Hydra to any business looking to improve their sales.</p>
-					<p class="editable author">Jim James - CEO of Global Corp.</p>
-				</blockquote>
-			</div>
-		</div>
-	</section>
+    <section>
+        <div class="container">
+            <div class="text editable text-center">
+                <h1 class="title">EEG Data Processing and Analysis </h1>
+                <p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and shows you where you should be spending your resources.</p>
+            </div>
+            <div class="image text-center">
+                <img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
+            </div>
+        </div>
+    </section>
 
-	<section class="bottom-cta">
-		<h2 class="editable">Learn more about our software</h2>
-		<div class="button alt"><a href="/updates/">Go to Project Updates</a></div>
-	</section>
+    <section class="testimonial">
+        <div class="container text-center">
+            <div class="testimonial-block">
+                <div class="square-image">
+                    <img src="https://source.unsplash.com/6anudmpILw4/600x400" alt="Jim James" class="editable">
+                </div>
+                <blockquote>
+                    <p class="editable">Hydra has shaped the business we have today. We have a repeatable sales process and a strategy to scale our team. I recommend Hydra to any business looking to improve their sales.</p>
+                    <p class="editable author">Jim James - CEO of Global Corp.</p>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section class="bottom-cta text-center">
+        <h2 class="editable">Learn more about our software</h2>
+        <div class="button alt"><a href="/updates/">Go to Project Updates</a></div>
+    </section>
 </div>
