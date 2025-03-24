@@ -12,7 +12,7 @@
 .title {
     text-align: center;
     margin: 0;
-    padding: 70px 0;
+    padding: 50px 0;
     font-size: 4em;
     color: #13246b;
    font-weight: bold;
@@ -63,6 +63,25 @@
   border-radius: 10px;
 }
 
+
+h1 {
+	font-family: "Winky Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: bold;
+	font-style: normal;
+}
+
+p, li {
+	font-family: "Quicksand", sans-serif;
+	font-weight: 430;
+}
+
+h2 {
+	font-family: "Quicksand", sans-serif;
+	font-weight: 700;
+	padding-top: 30px;
+	//padding-bottom: 10px;
+}
 
 
 @media #{$desktop} {
