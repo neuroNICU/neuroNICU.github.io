@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: NeuroNICU
+title: NeuroEcho
 url: "https://proud-alligator.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -9,14 +9,14 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /logo.svg
+logo: /logo.png
 description: Cognitive Neuroscience Toolkit Software
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: NeuroNICU
+  name: NeuroEcho
   links:
     - https://github.com/CloudCannon/hydra-jekyll-template
 
