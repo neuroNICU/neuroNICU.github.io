@@ -4,7 +4,7 @@ title: Meeting the Team
 categories:
   - GitHub
   - Research
-author_staff_member: Salina Thongsisavath
+author_staff_member: salina.md
 ---
 
 Week 1: Our developer team (Salina Thongsisavath, Adam Bell, Samantha Mallari) met with our project sponsor, Dr. Tarrit and her PhD student, Weihao Xin. We discussed the goals of the project and the timeline for the next few months.
@@ -25,8 +25,3 @@ We will be using GitHub for collaboration and tracking changes to our code. Gith
 
 Dr. Tarrit explained the goals of the project and the timeline for the next few months. The goal of the project is to create a MATLAB application that allows users to configure Oddball Task Experiments. The application will also allow users to play the experiment audio files with minimal latency. The application will be used by Dr. Tarrit's auditory-neuroscience research team to conduct experiments on auditory processing and attention.
 
-![Mismatch Negativity Visual]({{ "/images/Exp1_mmn.png" | relative_url }}){: .screenshot .editable }
-
-
-
-![Phonemes Visual]({{ "/images/Exp2_phonemes.png" | relative_url }}){: .screenshot .editable }
